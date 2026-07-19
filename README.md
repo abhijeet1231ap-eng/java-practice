@@ -1,23 +1,26 @@
 # java-practice
-# Simple Calculator (Java)
 
-A console-based calculator built in Java to practice fundamentals like 
-Scanner input handling, conditional logic, and basic arithmetic operations.
+Java practice repository covering OOP fundamentals and core concepts.
 
-## Features
-- Takes two numbers as input from the user
-- Performs Add, Subtract, Multiply, or Divide based on user's choice
-- Handles invalid menu selection with an appropriate message
+## Files
 
-## Concepts Practiced
-- Scanner class for user input
-- if-else conditional branching
-- Basic arithmetic operators
-- Variable scope and initialization
+### Calculator.java
+A console-based calculator built to practice Scanner input, conditional logic, and arithmetic operations.
+
+**Concepts**: Scanner class, if-else branching, arithmetic operators
+
+### Practice.java
+Explores Java enums in depth alongside OOP fundamentals.
+
+**Concepts**: 
+- Enum with simple constants (`Level`)
+- Enum with constructor + field (`Day`)
+- Enum with abstract methods (`TrafficLight`)
+- Enum combining data + abstract methods (`Planet`, `Season`)
+- Object class — `toString()`, `equals()` overriding
 
 ## How to Run
 ```bash
-javac io.java
-java io
+javac <FileName>.java
+java <FileName>
 ```
-
