@@ -19,6 +19,11 @@ Explores Java enums in depth alongside OOP fundamentals.
 - Enum combining data + abstract methods (`Planet`, `Season`)
 - Object class — `toString()`, `equals()` overriding
 
+- ### Interfaces (MediaPlayer, Shape, Employee, Greetable, Trusted)
+- Default methods (fallback behavior)
+- Functional interfaces (`@FunctionalInterface`, single abstract method)
+- Marker interfaces (empty interface, `instanceof` check)
+
 ## How to Run
 ```bash
 javac <FileName>.java
